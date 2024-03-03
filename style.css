@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.Hanken {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+:root{
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --gradient-blue: hsl(252, 100%, 67%), hsl(241, 81%, 54%);
+    --gradient-circle: hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(var(--gradient-blue));
+    min-height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;;
+}
+
+
