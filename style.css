@@ -93,7 +93,7 @@ main{
     color: hsla(234, 85%, 45%, 1);
 }
 
-.attribution{
+footer{
     max-width: 700px;
     background:linear-gradient(var(--gradient-blue));
     border-radius: 40px;
@@ -104,16 +104,7 @@ main{
 
 }
 
-.attribution a{
-    color: hsla(39, 100%, 56%, 1);
-    text-decoration: none;
-    transition: all 0.4s ease-in;
-   
-}
 
-.attribution a:hover{
-    color: hsla(166, 100%, 37%, 1);
-}
 
 
 /* h1, h2.... */
@@ -170,8 +161,10 @@ button:hover , button:focus{
 
 .totalNumber{
     background: linear-gradient(var(--gradient-circle));
-    width: 150px;
-    height: 150px;
+    width: calc(10vw + 150px);
+    height: calc(10vw + 150px);
+    max-width: 250px;
+    max-height: 250px;
     border-radius: 100%;
     margin:0;
     display: flex;
@@ -182,6 +175,7 @@ button:hover , button:focus{
     color: var(--white);
     font-weight: 900;
 }
+
 
 span{
     color: var(--light-lavander);
@@ -202,6 +196,17 @@ span{
     margin-left:  auto;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+footer a{
+    color: hsla(39, 100%, 56%, 1);
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+   
+}
+
+footer a:hover{
+    color: hsla(166, 100%, 37%, 1);
 }
 
 @media (min-width: 730px) {
@@ -225,8 +230,9 @@ span{
   .result{
     justify-content: space-evenly;
   }
-  .attribution{
+  footer{
     width: 100%;
   }
+
 
 }
